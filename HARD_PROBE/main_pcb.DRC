@@ -1,0 +1,45 @@
+Protel Design System Design Rule Check
+PCB File : \Users\Pal\DEVICES\UKU209\HARD_PROBE\main_pcb.PcbDoc
+Date     : 05.05.2017
+Time     : 9:13:45
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (All) )
+   Violation         Net NetJP1_1   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : JP1-1         Subnet : JP5-1       Violation         Net NetJP1_2   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : JP1-2         Subnet : JP5-2       Violation         Net NetJP1_3   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : JP1-3         Subnet : JP5-3       Violation         Net NetJP1_4   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : JP1-4         Subnet : JP5-4       Violation         Net PH0   is broken into 3 sub-nets. Routed To 50.00%
+     Subnet : JP1-27   JP5-27   U1-23         Subnet : C2-2          Subnet : Y1-2        Violation         Net PH1   is broken into 3 sub-nets. Routed To 50.00%
+     Subnet : Y1-1          Subnet : C1-2          Subnet : JP1-28   JP5-28   U1-24       Violation         Net VSSA   is broken into 12 sub-nets. Routed To 64.52%
+     Subnet : JP2-25   JP6-25   U1-61         Subnet : JP2-15   JP6-15   U1-51         Subnet : JP2-2    JP6-2    U1-38         Subnet : JP1-35   JP5-35   U1-31         Subnet : C1-1          Subnet : C2-1          Subnet : JP1-20   JP5-20   U1-16         Subnet : U1-83    JP3-15   JP7-15        Subnet : JP3-26   U1-94    JP7-26        Subnet : U1-107   JP3-39   JP7-39        Subnet : U1-120   JP8-12   JP4-12        Subnet : U1-130   JP8-22   JP4-22      Violation         Net NetJP2_37   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : JP2-37        Subnet : JP6-37      Violation         Net NetJP2_38   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : JP2-38        Subnet : JP6-38      Violation         Net NetJP2_39   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : JP2-39        Subnet : JP6-39      Violation         Net NetJP2_40   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : JP2-40        Subnet : JP6-40      Violation         Net NetJP3_1   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : JP3-1         Subnet : JP7-1       Violation         Net NetJP3_2   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : JP3-2         Subnet : JP7-2       Violation         Net NetJP3_3   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : JP3-3         Subnet : JP7-3       Violation         Net NetJP3_4   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : JP3-4         Subnet : JP7-4       Violation         Net NetJP4_37   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : JP8-37        Subnet : JP4-37      Violation         Net NetJP4_38   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : JP8-38        Subnet : JP4-38      Violation         Net NetJP4_39   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : JP8-39        Subnet : JP4-39      Violation         Net NetJP4_40   is broken into 2 sub-nets. Routed To 0.00%
+     Subnet : JP8-40        Subnet : JP4-40   Rule Violations :19
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=2mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.0254mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 19
+Time Elapsed        : 00:00:00

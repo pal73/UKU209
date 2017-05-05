@@ -1,0 +1,17 @@
+.\Obj\touchpanel.o: ..\USER\TouchPanel\TouchPanel.c
+.\Obj\touchpanel.o: ..\USER\TouchPanel\TouchPanel.h
+.\Obj\touchpanel.o: ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\Obj\touchpanel.o: ..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
+.\Obj\touchpanel.o: C:\Keil\ARM\RV31\INC\stdint.h
+.\Obj\touchpanel.o: ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\Obj\touchpanel.o: ..\USER\stm32f10x_conf.h
+.\Obj\touchpanel.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
+.\Obj\touchpanel.o: ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\Obj\touchpanel.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h
+.\Obj\touchpanel.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\Obj\touchpanel.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\Obj\touchpanel.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h
+.\Obj\touchpanel.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+.\Obj\touchpanel.o: ..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\Obj\touchpanel.o: ..\USER\SysTick\systick.h
+.\Obj\touchpanel.o: ..\USER\GLCD\GLCD.h

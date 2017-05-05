@@ -1,0 +1,85 @@
+Removed Pin From Net: NetName=VSS_2 Pin=JP2-25
+Removed Pin From Net: NetName=VSS_2 Pin=JP3-26
+Removed Pin From Net: NetName=VSS_2 Pin=JP6-25
+Removed Pin From Net: NetName=VSS_2 Pin=JP7-26
+Removed Pin From Net: NetName=VSS_2 Pin=JP9-1
+Added Component: Designator=JP10(HDR2X18)
+Change Net Name : Old Net Name=VSS_2 New Net Name=GND
+Added Pin To Net: NetName=NetJP9_1 Pin=JP9-1
+Added Net: Name=NetJP9_1
+Added Pin To Net: NetName=NetJP9_2 Pin=JP9-2
+Added Net: Name=NetJP9_2
+Added Pin To Net: NetName=NetJP9_3 Pin=JP9-3
+Added Net: Name=NetJP9_3
+Added Pin To Net: NetName=NetJP9_4 Pin=JP9-4
+Added Net: Name=NetJP9_4
+Added Pin To Net: NetName=NetJP9_5 Pin=JP9-5
+Added Net: Name=NetJP9_5
+Added Pin To Net: NetName=NetJP9_6 Pin=JP9-6
+Added Net: Name=NetJP9_6
+Added Pin To Net: NetName=NetJP9_7 Pin=JP9-7
+Added Net: Name=NetJP9_7
+Added Pin To Net: NetName=NetJP9_8 Pin=JP9-8
+Added Net: Name=NetJP9_8
+Added Pin To Net: NetName=NetJP9_9 Pin=JP9-9
+Added Net: Name=NetJP9_9
+Added Pin To Net: NetName=NetJP9_10 Pin=JP9-10
+Added Net: Name=NetJP9_10
+Added Pin To Net: NetName=NetJP9_11 Pin=JP9-11
+Added Net: Name=NetJP9_11
+Added Pin To Net: NetName=NetJP9_12 Pin=JP9-12
+Added Net: Name=NetJP9_12
+Added Pin To Net: NetName=NetJP9_13 Pin=JP9-13
+Added Net: Name=NetJP9_13
+Added Pin To Net: NetName=NetJP9_14 Pin=JP9-14
+Added Net: Name=NetJP9_14
+Added Pin To Net: NetName=NetJP9_15 Pin=JP9-15
+Added Net: Name=NetJP9_15
+Added Pin To Net: NetName=NetJP9_16 Pin=JP9-16
+Added Net: Name=NetJP9_16
+Added Pin To Net: NetName=NetJP9_17 Pin=JP9-17
+Added Net: Name=NetJP9_17
+Added Pin To Net: NetName=NetJP9_18 Pin=JP9-18
+Added Net: Name=NetJP9_18
+Added Pin To Net: NetName=NetJP9_19 Pin=JP9-19
+Added Net: Name=NetJP9_19
+Added Pin To Net: NetName=NetJP9_20 Pin=JP9-20
+Added Net: Name=NetJP9_20
+Added Pin To Net: NetName=NetJP9_21 Pin=JP9-21
+Added Net: Name=NetJP9_21
+Added Pin To Net: NetName=NetJP9_22 Pin=JP9-22
+Added Net: Name=NetJP9_22
+Added Pin To Net: NetName=NetJP9_23 Pin=JP9-23
+Added Net: Name=NetJP9_23
+Added Pin To Net: NetName=NetJP9_24 Pin=JP9-24
+Added Net: Name=NetJP9_24
+Added Pin To Net: NetName=NetJP9_25 Pin=JP9-25
+Added Net: Name=NetJP9_25
+Added Pin To Net: NetName=NetJP9_26 Pin=JP9-26
+Added Net: Name=NetJP9_26
+Added Pin To Net: NetName=NetJP9_27 Pin=JP9-27
+Added Net: Name=NetJP9_27
+Added Pin To Net: NetName=NetJP9_28 Pin=JP9-28
+Added Net: Name=NetJP9_28
+Added Pin To Net: NetName=NetJP9_29 Pin=JP9-29
+Added Net: Name=NetJP9_29
+Added Pin To Net: NetName=NetJP9_30 Pin=JP9-30
+Added Net: Name=NetJP9_30
+Added Pin To Net: NetName=NetJP9_31 Pin=JP9-31
+Added Net: Name=NetJP9_31
+Added Pin To Net: NetName=NetJP9_32 Pin=JP9-32
+Added Net: Name=NetJP9_32
+Added Pin To Net: NetName=NetJP9_33 Pin=JP9-33
+Added Net: Name=NetJP9_33
+Added Pin To Net: NetName=NetJP9_34 Pin=JP9-34
+Added Net: Name=NetJP9_34
+Added Pin To Net: NetName=NetJP9_35 Pin=JP9-35
+Added Net: Name=NetJP9_35
+Added Pin To Net: NetName=NetJP9_36 Pin=JP9-36
+Added Net: Name=NetJP9_36
+Added Pin To Net: NetName=VSS_7 Pin=JP2-25
+Added Pin To Net: NetName=VSS_7 Pin=JP6-25
+Added Net: Name=VSS_7
+Added Pin To Net: NetName=VSS_9 Pin=JP3-26
+Added Pin To Net: NetName=VSS_9 Pin=JP7-26
+Added Net: Name=VSS_9

@@ -1,0 +1,41 @@
+Added Component: Designator=C?(_1206)
+Added Component: Designator=C?(_1206)
+Added Component: Designator=Y?(qwarz1)
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Net: Name=GND
+Added Pin To Net: NetName=PH0 Pin=C?-2
+Added Pin To Net: NetName=PH1 Pin=C?-2
+Added Pin To Net: NetName=VSSA Pin=JP1-20
+Added Pin To Net: NetName=VSSA Pin=JP2-2
+Added Pin To Net: NetName=VSSA Pin=JP2-15
+Added Pin To Net: NetName=VSSA Pin=JP2-25
+Added Pin To Net: NetName=VSSA Pin=JP3-15
+Added Pin To Net: NetName=VSSA Pin=JP3-26
+Added Pin To Net: NetName=VSSA Pin=JP3-39
+Added Pin To Net: NetName=VSSA Pin=JP4-12
+Added Pin To Net: NetName=VSSA Pin=JP4-22
+Added Pin To Net: NetName=VSSA Pin=JP5-20
+Added Pin To Net: NetName=VSSA Pin=JP6-2
+Added Pin To Net: NetName=VSSA Pin=JP6-15
+Added Pin To Net: NetName=VSSA Pin=JP6-25
+Added Pin To Net: NetName=VSSA Pin=JP7-15
+Added Pin To Net: NetName=VSSA Pin=JP7-26
+Added Pin To Net: NetName=VSSA Pin=JP7-39
+Added Pin To Net: NetName=VSSA Pin=JP8-12
+Added Pin To Net: NetName=VSSA Pin=JP8-22
+Added Pin To Net: NetName=VSSA Pin=U1-16
+Added Pin To Net: NetName=VSSA Pin=U1-38
+Added Pin To Net: NetName=VSSA Pin=U1-51
+Added Pin To Net: NetName=VSSA Pin=U1-61
+Added Pin To Net: NetName=VSSA Pin=U1-83
+Added Pin To Net: NetName=VSSA Pin=U1-94
+Added Pin To Net: NetName=VSSA Pin=U1-107
+Added Pin To Net: NetName=VSSA Pin=U1-120
+Added Pin To Net: NetName=VSSA Pin=U1-130
+Added Pin To Net: NetName=PH1 Pin=Y?-1
+Added Pin To Net: NetName=PH0 Pin=Y?-2
+Added Member To Class: ClassName=main_sch Member=Component C? 10
+Added Member To Class: ClassName=main_sch Member=Component C? 10
+Added Member To Class: ClassName=main_sch Member=Component Y? 10MGz
+Added Room: Name=main_sch

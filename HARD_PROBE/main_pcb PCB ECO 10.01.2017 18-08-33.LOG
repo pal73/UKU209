@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=PA0 Pin=U1-34
+Removed Pin From Net: NetName=PA1 Pin=U1-35
+Removed Pin From Net: NetName=PA2 Pin=U1-36
+Change Net Name : Old Net Name=NetJP1_6 New Net Name=VBAT
+Change Net Name : Old Net Name=NetJP1_7 New Net Name=PC13
+Change Net Name : Old Net Name=NetJP1_8 New Net Name=PC14
+Change Net Name : Old Net Name=NetJP1_9 New Net Name=PC15
+Change Net Name : Old Net Name=NetJP1_10 New Net Name=PF0
+Change Net Name : Old Net Name=NetJP1_11 New Net Name=PF1
+Change Net Name : Old Net Name=NetJP1_12 New Net Name=PF2
+Change Net Name : Old Net Name=NetJP1_13 New Net Name=PF3
+Change Net Name : Old Net Name=NetJP1_14 New Net Name=PF4
+Change Net Name : Old Net Name=NetJP1_15 New Net Name=PF5
+Change Net Name : Old Net Name=NetJP1_16 New Net Name=VSS_5
+Change Net Name : Old Net Name=NetJP1_17 New Net Name=VDD_5
+Change Net Name : Old Net Name=NetJP1_18 New Net Name=PF6
+Change Net Name : Old Net Name=NetJP1_19 New Net Name=PF7
+Change Net Name : Old Net Name=NetJP1_20 New Net Name=PF8
+Change Net Name : Old Net Name=NetJP1_21 New Net Name=PF9
+Change Net Name : Old Net Name=NetJP1_22 New Net Name=PF10
+Change Net Name : Old Net Name=NetJP1_23 New Net Name=PH0
+Change Net Name : Old Net Name=NetJP1_24 New Net Name=PH1
+Change Net Name : Old Net Name=NetJP1_25 New Net Name=NRST
+Change Net Name : Old Net Name=NetJP1_26 New Net Name=PC0
+Change Net Name : Old Net Name=NetJP1_27 New Net Name=PC1
+Change Net Name : Old Net Name=NetJP1_28 New Net Name=PC2
+Change Net Name : Old Net Name=NetJP1_29 New Net Name=PC3
+Change Net Name : Old Net Name=NetJP1_30 New Net Name=VDD_12
+Change Net Name : Old Net Name=NetJP1_31 New Net Name=VSSA
+Change Net Name : Old Net Name=NetJP1_32 New Net Name=VREF+
+Change Net Name : Old Net Name=NetJP1_33 New Net Name=VDDA
+Change Net Name : Old Net Name=NetJP1_34 New Net Name=PA0
+Change Net Name : Old Net Name=NetJP1_35 New Net Name=PA1
+Change Net Name : Old Net Name=NetJP1_36 New Net Name=PA2
+Change Net Name : Old Net Name=PA0 New Net Name=NetJP1_38
+Change Net Name : Old Net Name=PA1 New Net Name=NetJP1_39
+Change Net Name : Old Net Name=PA2 New Net Name=NetJP1_40

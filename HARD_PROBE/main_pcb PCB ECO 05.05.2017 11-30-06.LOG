@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=VSSA Pin=JP1-35
+Removed Pin From Net: NetName=VSSA Pin=JP5-35
+Removed Pin From Net: NetName=VSSA Pin=U1-31
+Change Net Name : Old Net Name=VSSA New Net Name=VSS_2
+Added Pin To Net: NetName=VSSA Pin=JP1-35
+Added Pin To Net: NetName=VSSA Pin=JP5-35
+Added Pin To Net: NetName=VSSA Pin=U1-31
+Added Net: Name=VSSA

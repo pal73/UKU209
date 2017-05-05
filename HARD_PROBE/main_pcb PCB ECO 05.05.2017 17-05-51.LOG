@@ -1,0 +1,4 @@
+Added Component: Designator=JP10(HDR2X18)
+Added Pin To Net: NetName=GND Pin=JP1-35
+Added Pin To Net: NetName=GND Pin=JP5-35
+Added Pin To Net: NetName=GND Pin=U1-31

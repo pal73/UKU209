@@ -1,0 +1,15 @@
+Component   : XF2M-3615-1A
+PCB Library : PAL.PcbLib
+Date        : 09.02.2017
+Time        : 18:27:23
+
+
+
+Dimension : 22.6822 x 5.8674 sq mm
+
+ Layer(s)              Pads(s)  Tracks(s)  Fill(s)  Arc(s)  Text(s)
+--------------------------------------------------------------------
+ Top Layer                  38          0        0       0        0
+ Top Overlay                 0          6        0       0        0
+--------------------------------------------------------------------
+ Total                      38          6        0       0        0

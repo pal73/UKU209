@@ -1,0 +1,11 @@
+.\Obj\guidemo_font.o: ..\USER\uCGUI\uCGUIDemo\GUIDEMO_Font.c
+.\Obj\guidemo_font.o: C:\Keil\ARM\RV31\INC\stddef.h
+.\Obj\guidemo_font.o: ..\USER\uCGUI\inc\GUI.H
+.\Obj\guidemo_font.o: ..\USER\uCGUI\inc\GUI_ConfDefaults.h
+.\Obj\guidemo_font.o: ..\USER\uCGUI\Config\GUIConf.h
+.\Obj\guidemo_font.o: ..\USER\uCGUI\inc\GUIType.h
+.\Obj\guidemo_font.o: ..\USER\uCGUI\inc\LCD.h
+.\Obj\guidemo_font.o: ..\USER\uCGUI\inc\GUIVersion.h
+.\Obj\guidemo_font.o: ..\USER\uCGUI\uCGUIDemo\GUIDEMO.H
+.\Obj\guidemo_font.o: ..\USER\uCGUI\inc\LCD_ConfDefaults.h
+.\Obj\guidemo_font.o: ..\USER\uCGUI\Config\LCDConf.h

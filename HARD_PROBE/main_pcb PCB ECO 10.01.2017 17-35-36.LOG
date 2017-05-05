@@ -1,0 +1,124 @@
+Added Component: Designator=JP1(HDR2X20)
+Added Component: Designator=JP2(HDR2X20)
+Added Pin To Net: NetName=NetJP1_1 Pin=JP1-1
+Added Pin To Net: NetName=NetJP1_1 Pin=JP2-1
+Added Net: Name=NetJP1_1
+Added Pin To Net: NetName=NetJP1_2 Pin=JP1-2
+Added Pin To Net: NetName=NetJP1_2 Pin=JP2-2
+Added Net: Name=NetJP1_2
+Added Pin To Net: NetName=NetJP1_3 Pin=JP1-3
+Added Pin To Net: NetName=NetJP1_3 Pin=JP2-3
+Added Net: Name=NetJP1_3
+Added Pin To Net: NetName=NetJP1_4 Pin=JP1-4
+Added Pin To Net: NetName=NetJP1_4 Pin=JP2-4
+Added Net: Name=NetJP1_4
+Added Pin To Net: NetName=NetJP1_5 Pin=JP1-5
+Added Pin To Net: NetName=NetJP1_5 Pin=JP2-5
+Added Net: Name=NetJP1_5
+Added Pin To Net: NetName=NetJP1_6 Pin=JP1-6
+Added Pin To Net: NetName=NetJP1_6 Pin=JP2-6
+Added Net: Name=NetJP1_6
+Added Pin To Net: NetName=NetJP1_7 Pin=JP1-7
+Added Pin To Net: NetName=NetJP1_7 Pin=JP2-7
+Added Net: Name=NetJP1_7
+Added Pin To Net: NetName=NetJP1_8 Pin=JP1-8
+Added Pin To Net: NetName=NetJP1_8 Pin=JP2-8
+Added Net: Name=NetJP1_8
+Added Pin To Net: NetName=NetJP1_9 Pin=JP1-9
+Added Pin To Net: NetName=NetJP1_9 Pin=JP2-9
+Added Net: Name=NetJP1_9
+Added Pin To Net: NetName=NetJP1_10 Pin=JP1-10
+Added Pin To Net: NetName=NetJP1_10 Pin=JP2-10
+Added Net: Name=NetJP1_10
+Added Pin To Net: NetName=NetJP1_11 Pin=JP1-11
+Added Pin To Net: NetName=NetJP1_11 Pin=JP2-11
+Added Net: Name=NetJP1_11
+Added Pin To Net: NetName=NetJP1_12 Pin=JP1-12
+Added Pin To Net: NetName=NetJP1_12 Pin=JP2-12
+Added Net: Name=NetJP1_12
+Added Pin To Net: NetName=NetJP1_13 Pin=JP1-13
+Added Pin To Net: NetName=NetJP1_13 Pin=JP2-13
+Added Net: Name=NetJP1_13
+Added Pin To Net: NetName=NetJP1_14 Pin=JP1-14
+Added Pin To Net: NetName=NetJP1_14 Pin=JP2-14
+Added Net: Name=NetJP1_14
+Added Pin To Net: NetName=NetJP1_15 Pin=JP1-15
+Added Pin To Net: NetName=NetJP1_15 Pin=JP2-15
+Added Net: Name=NetJP1_15
+Added Pin To Net: NetName=NetJP1_16 Pin=JP1-16
+Added Pin To Net: NetName=NetJP1_16 Pin=JP2-16
+Added Net: Name=NetJP1_16
+Added Pin To Net: NetName=NetJP1_17 Pin=JP1-17
+Added Pin To Net: NetName=NetJP1_17 Pin=JP2-17
+Added Net: Name=NetJP1_17
+Added Pin To Net: NetName=NetJP1_18 Pin=JP1-18
+Added Pin To Net: NetName=NetJP1_18 Pin=JP2-18
+Added Net: Name=NetJP1_18
+Added Pin To Net: NetName=NetJP1_19 Pin=JP1-19
+Added Pin To Net: NetName=NetJP1_19 Pin=JP2-19
+Added Net: Name=NetJP1_19
+Added Pin To Net: NetName=NetJP1_20 Pin=JP1-20
+Added Pin To Net: NetName=NetJP1_20 Pin=JP2-20
+Added Net: Name=NetJP1_20
+Added Pin To Net: NetName=NetJP1_21 Pin=JP1-21
+Added Pin To Net: NetName=NetJP1_21 Pin=JP2-21
+Added Net: Name=NetJP1_21
+Added Pin To Net: NetName=NetJP1_22 Pin=JP1-22
+Added Pin To Net: NetName=NetJP1_22 Pin=JP2-22
+Added Net: Name=NetJP1_22
+Added Pin To Net: NetName=NetJP1_23 Pin=JP1-23
+Added Pin To Net: NetName=NetJP1_23 Pin=JP2-23
+Added Net: Name=NetJP1_23
+Added Pin To Net: NetName=NetJP1_24 Pin=JP1-24
+Added Pin To Net: NetName=NetJP1_24 Pin=JP2-24
+Added Net: Name=NetJP1_24
+Added Pin To Net: NetName=NetJP1_25 Pin=JP1-25
+Added Pin To Net: NetName=NetJP1_25 Pin=JP2-25
+Added Net: Name=NetJP1_25
+Added Pin To Net: NetName=NetJP1_26 Pin=JP1-26
+Added Pin To Net: NetName=NetJP1_26 Pin=JP2-26
+Added Net: Name=NetJP1_26
+Added Pin To Net: NetName=NetJP1_27 Pin=JP1-27
+Added Pin To Net: NetName=NetJP1_27 Pin=JP2-27
+Added Net: Name=NetJP1_27
+Added Pin To Net: NetName=NetJP1_28 Pin=JP1-28
+Added Pin To Net: NetName=NetJP1_28 Pin=JP2-28
+Added Net: Name=NetJP1_28
+Added Pin To Net: NetName=NetJP1_29 Pin=JP1-29
+Added Pin To Net: NetName=NetJP1_29 Pin=JP2-29
+Added Net: Name=NetJP1_29
+Added Pin To Net: NetName=NetJP1_30 Pin=JP1-30
+Added Pin To Net: NetName=NetJP1_30 Pin=JP2-30
+Added Net: Name=NetJP1_30
+Added Pin To Net: NetName=NetJP1_31 Pin=JP1-31
+Added Pin To Net: NetName=NetJP1_31 Pin=JP2-31
+Added Net: Name=NetJP1_31
+Added Pin To Net: NetName=NetJP1_32 Pin=JP1-32
+Added Pin To Net: NetName=NetJP1_32 Pin=JP2-32
+Added Net: Name=NetJP1_32
+Added Pin To Net: NetName=NetJP1_33 Pin=JP1-33
+Added Pin To Net: NetName=NetJP1_33 Pin=JP2-33
+Added Net: Name=NetJP1_33
+Added Pin To Net: NetName=NetJP1_34 Pin=JP1-34
+Added Pin To Net: NetName=NetJP1_34 Pin=JP2-34
+Added Net: Name=NetJP1_34
+Added Pin To Net: NetName=NetJP1_35 Pin=JP1-35
+Added Pin To Net: NetName=NetJP1_35 Pin=JP2-35
+Added Net: Name=NetJP1_35
+Added Pin To Net: NetName=NetJP1_36 Pin=JP1-36
+Added Pin To Net: NetName=NetJP1_36 Pin=JP2-36
+Added Net: Name=NetJP1_36
+Added Pin To Net: NetName=NetJP1_37 Pin=JP1-37
+Added Pin To Net: NetName=NetJP1_37 Pin=JP2-37
+Added Net: Name=NetJP1_37
+Added Pin To Net: NetName=NetJP1_38 Pin=JP1-38
+Added Pin To Net: NetName=NetJP1_38 Pin=JP2-38
+Added Net: Name=NetJP1_38
+Added Pin To Net: NetName=NetJP1_39 Pin=JP1-39
+Added Pin To Net: NetName=NetJP1_39 Pin=JP2-39
+Added Net: Name=NetJP1_39
+Added Pin To Net: NetName=NetJP1_40 Pin=JP1-40
+Added Pin To Net: NetName=NetJP1_40 Pin=JP2-40
+Added Net: Name=NetJP1_40
+Added Member To Class: ClassName=main_sch Member=Component JP1 Header 20X2
+Added Member To Class: ClassName=main_sch Member=Component JP2 Header 20X2

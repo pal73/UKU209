@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=PC0 Pin=U1-34
+Removed Pin From Net: NetName=PC1 Pin=U1-35
+Removed Pin From Net: NetName=PC2 Pin=U1-36
+Added Component: Designator=JP?(HDR1X25)
+Change Net Name : Old Net Name=NetJP1_3 New Net Name=PE4
+Change Net Name : Old Net Name=NetJP1_4 New Net Name=PE5
+Change Net Name : Old Net Name=PC0 New Net Name=VDD_12
+Change Net Name : Old Net Name=PC1 New Net Name=VSSA
+Change Net Name : Old Net Name=PC2 New Net Name=VREF+
+Change Net Name : Old Net Name=PC3 New Net Name=VDDA
+Change Net Name : Old Net Name=PE2 New Net Name=PE6
+Change Net Name : Old Net Name=PE3 New Net Name=VBAT
+Change Net Name : Old Net Name=PE4 New Net Name=NetJP1_3
+Change Net Name : Old Net Name=PE5 New Net Name=NetJP1_4
+Change Net Name : Old Net Name=PE6 New Net Name=PE2
+Change Net Name : Old Net Name=PF2 New Net Name=VSS_5
+Change Net Name : Old Net Name=PF3 New Net Name=PF9
+Change Net Name : Old Net Name=PF6 New Net Name=PF10
+Change Net Name : Old Net Name=PF7 New Net Name=PH0
+Change Net Name : Old Net Name=PF8 New Net Name=PH1
+Change Net Name : Old Net Name=PF9 New Net Name=VDD_5
+Change Net Name : Old Net Name=PF10 New Net Name=PF6
+Change Net Name : Old Net Name=PH0 New Net Name=PF7
+Change Net Name : Old Net Name=PH1 New Net Name=PF8
+Change Net Name : Old Net Name=VBAT New Net Name=PE3
+Change Net Name : Old Net Name=VDDA New Net Name=PC3
+Change Net Name : Old Net Name=VDD_5 New Net Name=PF3
+Change Net Name : Old Net Name=VDD_12 New Net Name=PC0
+Change Net Name : Old Net Name=VREF+ New Net Name=PC2
+Change Net Name : Old Net Name=VSSA New Net Name=PC1
+Change Net Name : Old Net Name=VSS_5 New Net Name=PF2
+Added Pin To Net: NetName=PA0 Pin=U1-34
+Added Pin To Net: NetName=PA1 Pin=U1-35
+Added Pin To Net: NetName=PA2 Pin=U1-36
+Added Member To Class: ClassName=main_sch Member=Component JP? Header 36
+Added Room: Name=main_sch

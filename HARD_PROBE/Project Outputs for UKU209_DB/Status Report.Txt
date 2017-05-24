@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [UKU209_DB.PrjPCB]
+   Generated File[main_pcb.TXT]
+   Generated File[main_pcb.DRL]
+   Generated File[main_pcb.LDP]
+   Generated File[main_pcb.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 19:31:29 On 15.05.2017

@@ -1,0 +1,2 @@
+Dependencies for Project '1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f2xx.s)(0x4CF71AA8)(--cpu Cortex-M3 -g --apcs=interwork -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\ST\STM32F2xx" --list "startup_stm32f2xx.lst" --xref -o "startup_stm32f2xx.o" --depend "startup_stm32f2xx.d")

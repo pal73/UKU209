@@ -43,20 +43,20 @@ static uint32_t BSP_TSC_Init(void);
 uint32_t BSP_Init (void)
 {
   /* Setup SysTick Timer for 1 msec interrupts */
-  SysTick_Config(SystemCoreClock / 1000);
+  SysTick_Config(SystemCoreClock / 100);
   
   /* Initialize the LEDs */
   STM_EVAL_LEDInit(LED1);
-  STM_EVAL_LEDInit(LED2);
-  STM_EVAL_LEDInit(LED3);
-  STM_EVAL_LEDInit(LED4);  
+  //palSTM_EVAL_LEDInit(LED2);
+  //palSTM_EVAL_LEDInit(LED3);
+  //palSTM_EVAL_LEDInit(LED4);  
 
-  BSP_TSC_Init();
+  //BSP_TSC_Init();
   
   STM322xG_LCD_Init();
 
   /* Initialize the SRAM */
-  SRAM_Init();
+  //SRAM_Init();
 
   /* Enable the CRC Module */
   RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_CRC, ENABLE);  

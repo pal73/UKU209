@@ -25,7 +25,7 @@
     <ToolsetNumber>0x4</ToolsetNumber>
     <ToolsetName>ARM-ADS</ToolsetName>
     <TargetOption>
-      <CLKADS>25000000</CLKADS>
+      <CLKADS>10000000</CLKADS>
       <OPTTT>
         <gFlags>1</gFlags>
         <BeepAtEnd>1</BeepAtEnd>
@@ -105,14 +105,14 @@
         <sRbox>0</sRbox>
         <tLdApp>1</tLdApp>
         <tGomain>1</tGomain>
-        <tRbreak>0</tRbreak>
-        <tRwatch>0</tRwatch>
-        <tRmem>0</tRmem>
+        <tRbreak>1</tRbreak>
+        <tRwatch>1</tRwatch>
+        <tRmem>1</tRmem>
         <tRfunc>0</tRfunc>
-        <tRbox>0</tRbox>
+        <tRbox>1</tRbox>
         <sRunDeb>0</sRunDeb>
         <sLrtime>0</sLrtime>
-        <nTsel>14</nTsel>
+        <nTsel>7</nTsel>
         <sDll></sDll>
         <sDllPa></sDllPa>
         <sDlgDll></sDlgDll>
@@ -123,18 +123,23 @@
         <tDlgDll></tDlgDll>
         <tDlgPa></tDlgPa>
         <tIfile></tIfile>
-        <pMon>STLink\ST-LINKIII-KEIL_SWO.dll</pMon>
+        <pMon>Segger\JL2CM3.dll</pMon>
       </DebugOpt>
       <TargetDriverDllRegistry>
         <SetRegEntry>
           <Number>0</Number>
+          <Key>JL2CM3</Key>
+          <Name>-U58001139 -O14 -S0 -A0 -C0 -JU1 -JI127.0.0.1 -JP0 -RST0 -N00("ARM CoreSight JTAG-DP") -D00(4BA00477) -L00(4) -N01("Unknown JTAG device") -D01(06411041) -L01(5) -TO18 -TC10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -TB1 -TFE0 -FO7 -FD20000000 -FC800 -FN1 -FF0STM32F2xx_1024 -FS08000000 -FL0100000</Name>
+        </SetRegEntry>
+        <SetRegEntry>
+          <Number>0</Number>
           <Key>DLGUARM</Key>
-          <Name>(105=-1,-1,-1,-1,0)(106=-1,-1,-1,-1,0)(107=-1,-1,-1,-1,0)</Name>
+          <Name>(106=-1,-1,-1,-1,0)(107=-1,-1,-1,-1,0)</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
           <Key>DLGTARM</Key>
-          <Name>(1010=-1,-1,-1,-1,0)(1007=-1,-1,-1,-1,0)(1008=-1,-1,-1,-1,0)(1009=-1,-1,-1,-1,0)(1012=-1,-1,-1,-1,0)</Name>
+          <Name>(1010=-1,-1,-1,-1,0)(1007=140,164,374,484,0)(1008=120,144,606,416,0)(1009=-1,-1,-1,-1,0)(1012=-1,-1,-1,-1,0)</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -154,13 +159,51 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>ST-LINKIII-KEIL_SWO</Key>
-          <Name>-U -O78 -S0 -C0 -N00("ARM CoreSight SW-DP") -D00(2BA01477) -L00(0) -TO0 -TC8000000 -TP28 -TDS7 -TDT0 -TDC0 -TIEFFFFFFFF -TIP8 -FO3 -FD20000000 -FC800 -FN1 -FF0STM32F2xx_1024 -FS08000000 -FL0100000</Name>
+          <Name>-U-O78 -O78 -S0 -C0 -N00("ARM CoreSight SW-DP") -D00(2BA01477) -L00(0) -TO0 -TC8000000 -TP28 -TDS7 -TDT0 -TDC0 -TIEFFFFFFFF -TIP8 -FO3 -FD20000000 -FC800 -FN1 -FF0STM32F2xx_1024 -FS08000000 -FL0100000</Name>
         </SetRegEntry>
       </TargetDriverDllRegistry>
+      <Breakpoint>
+        <Bp>
+          <Number>0</Number>
+          <Type>0</Type>
+          <LineNumber>55</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134244602</Address>
+          <ByteObject>0</ByteObject>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename></Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\STM322xG_EVAL\main\55</Expression>
+        </Bp>
+      </Breakpoint>
+      <WatchWindow1>
+        <Ww>
+          <count>0</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>SystemCoreClock</ItemText>
+        </Ww>
+      </WatchWindow1>
+      <WatchWindow2>
+        <Ww>
+          <count>0</count>
+          <WinNumber>2</WinNumber>
+          <ItemText>SystemCoreClock,0x0A</ItemText>
+        </Ww>
+      </WatchWindow2>
+      <MemoryWindow1>
+        <Mm>
+          <WinNumber>1</WinNumber>
+          <SubType>0</SubType>
+          <ItemText>GPIOG-&gt;ODR</ItemText>
+        </Mm>
+      </MemoryWindow1>
       <DebugFlag>
         <trace>0</trace>
         <periodic>0</periodic>
-        <aLwin>1</aLwin>
+        <aLwin>0</aLwin>
         <aCover>0</aCover>
         <aSer1>0</aSer1>
         <aSer2>0</aSer2>
@@ -199,10 +242,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>5</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>764</TopLine>
-      <CurrentLine>764</CurrentLine>
+      <TopLine>403</TopLine>
+      <CurrentLine>407</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\..\Demo\GUIDEMO.c</PathWithFileName>
       <FilenameWithoutPath>GUIDEMO.c</FilenameWithoutPath>
@@ -563,10 +606,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>4</ColumnNumber>
+      <ColumnNumber>5</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>37</TopLine>
-      <CurrentLine>59</CurrentLine>
+      <TopLine>85</TopLine>
+      <CurrentLine>85</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\..\User\bsp.c</PathWithFileName>
       <FilenameWithoutPath>bsp.c</FilenameWithoutPath>
@@ -577,10 +620,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>8</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>34</TopLine>
-      <CurrentLine>44</CurrentLine>
+      <TopLine>40</TopLine>
+      <CurrentLine>55</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\..\User\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -591,10 +634,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>11</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>59</TopLine>
+      <CurrentLine>67</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\..\User\stm32xxx_it.c</PathWithFileName>
       <FilenameWithoutPath>stm32xxx_it.c</FilenameWithoutPath>
@@ -607,8 +650,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>227</TopLine>
+      <CurrentLine>235</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\..\User\system_stm32f2xx.c</PathWithFileName>
       <FilenameWithoutPath>system_stm32f2xx.c</FilenameWithoutPath>
@@ -621,8 +664,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>172</TopLine>
+      <CurrentLine>179</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\startup_stm32f2xx_mdkarm.s</PathWithFileName>
       <FilenameWithoutPath>startup_stm32f2xx_mdkarm.s</FilenameWithoutPath>
@@ -682,10 +725,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13</ColumnNumber>
+      <ColumnNumber>24</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>80</TopLine>
-      <CurrentLine>94</CurrentLine>
+      <TopLine>59</TopLine>
+      <CurrentLine>85</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Config\GUIConf_stm322xg_eval.c</PathWithFileName>
       <FilenameWithoutPath>GUIConf_stm322xg_eval.c</FilenameWithoutPath>
@@ -1228,10 +1271,10 @@
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>21</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>246</TopLine>
+      <CurrentLine>246</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\..\..\..\Libraries\STemWinLibrary522\inc\GUIDRV_FlexColor.h</PathWithFileName>
       <FilenameWithoutPath>GUIDRV_FlexColor.h</FilenameWithoutPath>
@@ -1996,7 +2039,7 @@
 
   <Group>
     <GroupName>Libraries</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <File>
@@ -2005,10 +2048,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>5</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>169</TopLine>
+      <CurrentLine>169</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\..\..\..\..\Utilities\STM32_EVAL\STM322xG_EVAL\stm322xg_eval.c</PathWithFileName>
       <FilenameWithoutPath>stm322xg_eval.c</FilenameWithoutPath>
@@ -2019,10 +2062,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>11</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>185</TopLine>
-      <CurrentLine>185</CurrentLine>
+      <TopLine>104</TopLine>
+      <CurrentLine>104</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\..\..\..\..\Utilities\STM32_EVAL\STM322xG_EVAL\stm322xg_eval_fsmc_sram.c</PathWithFileName>
       <FilenameWithoutPath>stm322xg_eval_fsmc_sram.c</FilenameWithoutPath>
@@ -2033,10 +2076,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>8</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>123</TopLine>
+      <CurrentLine>135</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\..\..\..\..\Utilities\STM32_EVAL\STM322xG_EVAL\stm322xg_eval_ioe.c</PathWithFileName>
       <FilenameWithoutPath>stm322xg_eval_ioe.c</FilenameWithoutPath>
@@ -2049,8 +2092,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>1346</TopLine>
+      <CurrentLine>1354</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\..\..\..\..\Utilities\STM32_EVAL\STM322xG_EVAL\stm322xg_eval_lcd.c</PathWithFileName>
       <FilenameWithoutPath>stm322xg_eval_lcd.c</FilenameWithoutPath>
@@ -2063,8 +2106,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>116</TopLine>
+      <CurrentLine>124</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\..\..\..\..\Libraries\STM32F2xx_StdPeriph_Driver\src\misc.c</PathWithFileName>
       <FilenameWithoutPath>misc.c</FilenameWithoutPath>
@@ -2273,8 +2316,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>1</TopLine>
+      <CurrentLine>1</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\..\..\..\..\Libraries\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_gpio.c</PathWithFileName>
       <FilenameWithoutPath>stm32f2xx_gpio.c</FilenameWithoutPath>
@@ -2329,8 +2372,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>1205</TopLine>
+      <CurrentLine>1205</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\..\..\..\..\Libraries\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_i2c.c</PathWithFileName>
       <FilenameWithoutPath>stm32f2xx_i2c.c</FilenameWithoutPath>
@@ -2369,10 +2412,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>5</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>1088</TopLine>
+      <CurrentLine>1094</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\..\..\..\..\Libraries\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rcc.c</PathWithFileName>
       <FilenameWithoutPath>stm32f2xx_rcc.c</FilenameWithoutPath>
@@ -2492,9 +2535,165 @@
   </Group>
 
   <AlienFiles>
+    <PathWithFilename>E:\Users\Pal\DEVICES\UKU209\SOFT\STemWin_Library_V1.1.2\Utilities\STM32_EVAL\STM322xG_EVAL\stm322xg_eval.h</PathWithFilename>
+    <TopLine>111</TopLine>
+    <CurrentLine>123</CurrentLine>
+    <Constant>0</Constant>
+    <WindowPosition>
+      <length>0</length>
+      <flags>0</flags>
+      <showCmd>0</showCmd>
+      <MinPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MinPosition>
+      <MaxPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MaxPosition>
+      <NormalPosition>
+        <Top>0</Top>
+        <Left>0</Left>
+        <Right>0</Right>
+        <Bottom>0</Bottom>
+      </NormalPosition>
+    </WindowPosition>
+  </AlienFiles>
+
+  <AlienFiles>
+    <PathWithFilename>E:\Users\Pal\DEVICES\UKU209\SOFT\STemWin_Library_V1.1.2\Libraries\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_gpio.h</PathWithFilename>
+    <TopLine>194</TopLine>
+    <CurrentLine>200</CurrentLine>
+    <Constant>0</Constant>
+    <WindowPosition>
+      <length>0</length>
+      <flags>0</flags>
+      <showCmd>0</showCmd>
+      <MinPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MinPosition>
+      <MaxPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MaxPosition>
+      <NormalPosition>
+        <Top>0</Top>
+        <Left>0</Left>
+        <Right>0</Right>
+        <Bottom>0</Bottom>
+      </NormalPosition>
+    </WindowPosition>
+  </AlienFiles>
+
+  <AlienFiles>
     <PathWithFilename>E:\Users\Pal\DEVICES\UKU209\SOFT\STemWin_Library_V1.1.2\Project\STM322xG-EVAL\Standalone\Demo\GUIDEMO.h</PathWithFilename>
-    <TopLine>112</TopLine>
-    <CurrentLine>128</CurrentLine>
+    <TopLine>283</TopLine>
+    <CurrentLine>283</CurrentLine>
+    <Constant>0</Constant>
+    <WindowPosition>
+      <length>0</length>
+      <flags>0</flags>
+      <showCmd>0</showCmd>
+      <MinPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MinPosition>
+      <MaxPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MaxPosition>
+      <NormalPosition>
+        <Top>0</Top>
+        <Left>0</Left>
+        <Right>0</Right>
+        <Bottom>0</Bottom>
+      </NormalPosition>
+    </WindowPosition>
+  </AlienFiles>
+
+  <AlienFiles>
+    <PathWithFilename>E:\Users\Pal\DEVICES\UKU209\SOFT\STemWin_Library_V1.1.2\Libraries\CMSIS\Device\ST\STM32F2xx\Include\stm32f2xx.h</PathWithFilename>
+    <TopLine>99</TopLine>
+    <CurrentLine>105</CurrentLine>
+    <Constant>0</Constant>
+    <WindowPosition>
+      <length>0</length>
+      <flags>0</flags>
+      <showCmd>0</showCmd>
+      <MinPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MinPosition>
+      <MaxPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MaxPosition>
+      <NormalPosition>
+        <Top>0</Top>
+        <Left>0</Left>
+        <Right>0</Right>
+        <Bottom>0</Bottom>
+      </NormalPosition>
+    </WindowPosition>
+  </AlienFiles>
+
+  <AlienFiles>
+    <PathWithFilename>E:\Users\Pal\DEVICES\UKU209\SOFT\STemWin_Library_V1.1.2\Libraries\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rcc.h</PathWithFilename>
+    <TopLine>255</TopLine>
+    <CurrentLine>267</CurrentLine>
+    <Constant>0</Constant>
+    <WindowPosition>
+      <length>0</length>
+      <flags>0</flags>
+      <showCmd>0</showCmd>
+      <MinPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MinPosition>
+      <MaxPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MaxPosition>
+      <NormalPosition>
+        <Top>0</Top>
+        <Left>0</Left>
+        <Right>0</Right>
+        <Bottom>0</Bottom>
+      </NormalPosition>
+    </WindowPosition>
+  </AlienFiles>
+
+  <AlienFiles>
+    <PathWithFilename>E:\Users\Pal\DEVICES\UKU209\SOFT\STemWin_Library_V1.1.2\Project\STM322xG-EVAL\Standalone\User\stm32f2xx_conf.h</PathWithFilename>
+    <TopLine>71</TopLine>
+    <CurrentLine>89</CurrentLine>
+    <Constant>0</Constant>
+    <WindowPosition>
+      <length>0</length>
+      <flags>0</flags>
+      <showCmd>0</showCmd>
+      <MinPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MinPosition>
+      <MaxPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MaxPosition>
+      <NormalPosition>
+        <Top>0</Top>
+        <Left>0</Left>
+        <Right>0</Right>
+        <Bottom>0</Bottom>
+      </NormalPosition>
+    </WindowPosition>
+  </AlienFiles>
+
+  <AlienFiles>
+    <PathWithFilename>C:\Keil\ARM\CMSIS\Include\core_cm3.h</PathWithFilename>
+    <TopLine>1131</TopLine>
+    <CurrentLine>1139</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -2525,10 +2724,118 @@
       <ActiveTab>0</ActiveTab>
       <Documents>
         <Doc>
-          <Name>.\..\..\..\..\Utilities\STM32_EVAL\STM322xG_EVAL\stm322xg_eval_fsmc_sram.c</Name>
+          <Name>..\Demo\GUIDEMO.h</Name>
+          <ColumnNumber>43</ColumnNumber>
+          <TopLine>283</TopLine>
+          <CurrentLine>283</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\..\User\stm32xxx_it.c</Name>
           <ColumnNumber>0</ColumnNumber>
-          <TopLine>185</TopLine>
-          <CurrentLine>185</CurrentLine>
+          <TopLine>59</TopLine>
+          <CurrentLine>67</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>C:\Keil\ARM\CMSIS\Include\core_cm3.h</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>1131</TopLine>
+          <CurrentLine>1139</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>..\Config\GUIConf_stm322xg_eval.c</Name>
+          <ColumnNumber>24</ColumnNumber>
+          <TopLine>59</TopLine>
+          <CurrentLine>85</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\..\User\main.c</Name>
+          <ColumnNumber>8</ColumnNumber>
+          <TopLine>40</TopLine>
+          <CurrentLine>55</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\..\..\..\..\Utilities\STM32_EVAL\STM322xG_EVAL\stm322xg_eval_lcd.c</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>1346</TopLine>
+          <CurrentLine>1354</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\..\User\system_stm32f2xx.c</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>227</TopLine>
+          <CurrentLine>235</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\..\..\..\..\Utilities\STM32_EVAL\STM322xG_EVAL\stm322xg_eval_fsmc_sram.c</Name>
+          <ColumnNumber>11</ColumnNumber>
+          <TopLine>104</TopLine>
+          <CurrentLine>104</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\..\..\..\..\Libraries\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_gpio.h</Name>
+          <ColumnNumber>8</ColumnNumber>
+          <TopLine>194</TopLine>
+          <CurrentLine>200</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\..\..\..\..\Utilities\STM32_EVAL\STM322xG_EVAL\stm322xg_eval_ioe.c</Name>
+          <ColumnNumber>8</ColumnNumber>
+          <TopLine>123</TopLine>
+          <CurrentLine>135</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\..\User\bsp.c</Name>
+          <ColumnNumber>5</ColumnNumber>
+          <TopLine>85</TopLine>
+          <CurrentLine>85</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\..\..\..\..\Utilities\STM32_EVAL\STM322xG_EVAL\stm322xg_eval.h</Name>
+          <ColumnNumber>44</ColumnNumber>
+          <TopLine>111</TopLine>
+          <CurrentLine>123</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\..\..\..\..\Utilities\STM32_EVAL\STM322xG_EVAL\stm322xg_eval.c</Name>
+          <ColumnNumber>5</ColumnNumber>
+          <TopLine>169</TopLine>
+          <CurrentLine>169</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\..\User\stm32f2xx_conf.h</Name>
+          <ColumnNumber>10</ColumnNumber>
+          <TopLine>71</TopLine>
+          <CurrentLine>89</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\..\..\..\..\Libraries\STM32F2xx_StdPeriph_Driver\inc\stm32f2xx_rcc.h</Name>
+          <ColumnNumber>8</ColumnNumber>
+          <TopLine>255</TopLine>
+          <CurrentLine>267</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\..\..\..\..\Libraries\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_rcc.c</Name>
+          <ColumnNumber>5</ColumnNumber>
+          <TopLine>1088</TopLine>
+          <CurrentLine>1094</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\..\..\..\..\Libraries\CMSIS\Device\ST\STM32F2xx\Include\stm32f2xx.h</Name>
+          <ColumnNumber>51</ColumnNumber>
+          <TopLine>99</TopLine>
+          <CurrentLine>105</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\..\..\..\..\Libraries\STM32F2xx_StdPeriph_Driver\src\misc.c</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>116</TopLine>
+          <CurrentLine>124</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>..\User\startup_stm32f2xx_mdkarm.s</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>172</TopLine>
+          <CurrentLine>179</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\Config\LCDConf_stm322xg_eval.c</Name>
@@ -2537,46 +2844,28 @@
           <CurrentLine>217</CurrentLine>
         </Doc>
         <Doc>
-          <Name>..\Config\GUIConf_stm322xg_eval.c</Name>
-          <ColumnNumber>13</ColumnNumber>
-          <TopLine>80</TopLine>
-          <CurrentLine>94</CurrentLine>
-        </Doc>
-        <Doc>
           <Name>.\..\..\..\..\Libraries\STemWinLibrary522\inc\GUIDRV_FlexColor.h</Name>
           <ColumnNumber>21</ColumnNumber>
           <TopLine>246</TopLine>
           <CurrentLine>246</CurrentLine>
         </Doc>
         <Doc>
-          <Name>.\..\Demo\GUIDEMO.c</Name>
-          <ColumnNumber>5</ColumnNumber>
-          <TopLine>764</TopLine>
-          <CurrentLine>764</CurrentLine>
+          <Name>.\..\..\..\..\Libraries\STM32F2xx_StdPeriph_Driver\src\stm32f2xx_gpio.c</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>1</TopLine>
+          <CurrentLine>1</CurrentLine>
         </Doc>
         <Doc>
-          <Name>.\..\User\main.c</Name>
+          <Name>.\..\Demo\GUIDEMO.c</Name>
           <ColumnNumber>0</ColumnNumber>
-          <TopLine>34</TopLine>
-          <CurrentLine>44</CurrentLine>
+          <TopLine>403</TopLine>
+          <CurrentLine>407</CurrentLine>
         </Doc>
         <Doc>
           <Name>.\..\Demo\GUIDEMO_WashingMachine.c</Name>
           <ColumnNumber>0</ColumnNumber>
           <TopLine>79</TopLine>
           <CurrentLine>79</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>..\Demo\GUIDEMO.h</Name>
-          <ColumnNumber>43</ColumnNumber>
-          <TopLine>112</TopLine>
-          <CurrentLine>128</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>.\..\User\bsp.c</Name>
-          <ColumnNumber>4</ColumnNumber>
-          <TopLine>37</TopLine>
-          <CurrentLine>59</CurrentLine>
         </Doc>
       </Documents>
     </MDIGroup>

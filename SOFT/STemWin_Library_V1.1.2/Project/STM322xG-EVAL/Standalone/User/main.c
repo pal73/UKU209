@@ -57,6 +57,7 @@ int main(void)
   GUI_Initialized = 1;
 
   /* Start Demo */
+  while(1);
   GUIDEMO_Main();
  }
 
@@ -69,16 +70,18 @@ void BSP_Background (void)
 {
   static uint32_t LED_ticks = 0;
   static uint32_t POINTER_ticks = 0;
-  
+ 
   if ( LED_ticks++ > 100 )
   {
     LED_ticks = 0;
     
     /* toggle LED1..4 each 100ms */
+
     STM_EVAL_LEDToggle(LED1);
-    STM_EVAL_LEDToggle(LED2);
-    STM_EVAL_LEDToggle(LED3);
-    STM_EVAL_LEDToggle(LED4);
+	//GPIOG->ODR^=(1<<6);
+//    STM_EVAL_LEDToggle(LED2);
+//    STM_EVAL_LEDToggle(LED3);
+//    STM_EVAL_LEDToggle(LED4);
   }
 
   if ( POINTER_ticks++ > 50 )

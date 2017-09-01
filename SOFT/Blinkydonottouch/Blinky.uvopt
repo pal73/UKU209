@@ -376,10 +376,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>23</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1</TopLine>
-      <CurrentLine>1</CurrentLine>
+      <TopLine>56</TopLine>
+      <CurrentLine>65</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\system_stm32f2xx.c</PathWithFileName>
       <FilenameWithoutPath>system_stm32f2xx.c</FilenameWithoutPath>
@@ -395,12 +395,12 @@
       <GroupNumber>2</GroupNumber>
       <FileNumber>3</FileNumber>
       <FileType>1</FileType>
-      <tvExp>0</tvExp>
+      <tvExp>1</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>20</ColumnNumber>
+      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>488</TopLine>
-      <CurrentLine>505</CurrentLine>
+      <TopLine>34</TopLine>
+      <CurrentLine>45</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\GLCD_16bitIF_STM32F2xx.c</PathWithFileName>
       <FilenameWithoutPath>GLCD_16bitIF_STM32F2xx.c</FilenameWithoutPath>
@@ -453,10 +453,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>8</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>189</TopLine>
-      <CurrentLine>193</CurrentLine>
+      <TopLine>193</TopLine>
+      <CurrentLine>206</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -526,8 +526,8 @@
 
   <AlienFiles>
     <PathWithFilename>E:\Users\Pal\DEVICES\UKU209\SOFT\Blinkydonottouch\stm32f2xx.h</PathWithFilename>
-    <TopLine>79</TopLine>
-    <CurrentLine>79</CurrentLine>
+    <TopLine>70</TopLine>
+    <CurrentLine>70</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -555,13 +555,13 @@
     <ActiveMDIGroup>0</ActiveMDIGroup>
     <MDIGroup>
       <Size>100</Size>
-      <ActiveTab>0</ActiveTab>
+      <ActiveTab>3</ActiveTab>
       <Documents>
         <Doc>
           <Name>.\main.c</Name>
-          <ColumnNumber>0</ColumnNumber>
-          <TopLine>189</TopLine>
-          <CurrentLine>193</CurrentLine>
+          <ColumnNumber>8</ColumnNumber>
+          <TopLine>193</TopLine>
+          <CurrentLine>206</CurrentLine>
         </Doc>
         <Doc>
           <Name>.\Abstract.txt</Name>
@@ -571,15 +571,15 @@
         </Doc>
         <Doc>
           <Name>.\GLCD_16bitIF_STM32F2xx.c</Name>
-          <ColumnNumber>20</ColumnNumber>
-          <TopLine>488</TopLine>
-          <CurrentLine>505</CurrentLine>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>34</TopLine>
+          <CurrentLine>45</CurrentLine>
         </Doc>
         <Doc>
           <Name>.\system_stm32f2xx.c</Name>
-          <ColumnNumber>0</ColumnNumber>
-          <TopLine>1</TopLine>
-          <CurrentLine>1</CurrentLine>
+          <ColumnNumber>23</ColumnNumber>
+          <TopLine>56</TopLine>
+          <CurrentLine>65</CurrentLine>
         </Doc>
         <Doc>
           <Name>.\startup_stm32f2xx.s</Name>
@@ -589,9 +589,9 @@
         </Doc>
         <Doc>
           <Name>stm32f2xx.h</Name>
-          <ColumnNumber>37</ColumnNumber>
-          <TopLine>79</TopLine>
-          <CurrentLine>79</CurrentLine>
+          <ColumnNumber>42</ColumnNumber>
+          <TopLine>70</TopLine>
+          <CurrentLine>70</CurrentLine>
         </Doc>
         <Doc>
           <Name>.\IRQ.c</Name>

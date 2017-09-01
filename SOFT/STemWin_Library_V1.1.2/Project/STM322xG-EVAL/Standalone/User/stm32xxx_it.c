@@ -79,7 +79,9 @@ void SysTick_Handler(void)
 {
   OS_TimeMS ++;
   
+  	//GPIOG->ODR^=(1<<6); 
   BSP_Background();
+  	//STM_EVAL_LEDToggle(LED1);
 
 }
 

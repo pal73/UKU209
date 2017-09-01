@@ -192,7 +192,7 @@ void LED_Out(unsigned int value) {
 int main (void) {                       /* Main Program                       */
   unsigned short AD_value, AD_print = 0;
 
-  SysTick_Config(SystemCoreClock/1000);  /* Generate interrupt each 10 ms      */
+  SysTick_Config(SystemCoreClock/1000);  /* Generate interrupt each 1 ms      */
 
   //LED_init();                           /* LED Initialization                 */
   //SER_init();                           /* UART#1 Initialization              */
